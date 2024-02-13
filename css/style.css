@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --orange-color: #f9bf3b;
+  --sub-title-color: #4a4a4a;
+}
+
+.container {
+  max-width: 100%;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.just {
+  background: url("../img/bg/main_bg.jpg") center center/cover no-repeat;
+  padding: 38px;
+  padding-bottom: 61px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.logo_text {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 11px;
+}
+
+.just_title {
+  color: var(--orange-color);
+  font-size: 41px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.just_just_text {
+  font-size: 80px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.just_just_text::before {
+  content: "";
+  display: inline-block;
+  width: 292px;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 27px;
+}
+
+.just_just_text::after {
+  content: "";
+  display: inline-block;
+  width: 292px;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 27px;
+}
+
+.just_russia {
+  color: white;
+  line-height: 28px;
+  font-size: 21px;
+  font-weight: 300;
+
+}
+
+.text-margin {
+  margin-top: 22px;
+}
+
+.button {
+  padding: 23px 14px;
+  width: 100%;
+  background-color: #36b0d3;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.just-button {
+  width: 313px;
+  margin: 0 auto;
+  margin-top: 72px;
+}
+
+.wait {
+  padding-top: 85px;
+  padding-bottom: 75px;
+}
+
+.title {
+  color: #252525;
+  font-size: 30px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  width: 220px;
+  margin: 0 auto;
+  height: 7px;
+  background: var(--orange-color);
+  margin-top: 18px;
+}
+
+.sub_title {
+  color: var(--sub-title-color);
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.wait_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 80px;
+  align-items: center;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.wait_card {
+  text-align: center;
+  color: var(--sub-title-color);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  position: relative;
+  top: 24px;
+}
+
+.wait_card img {
+  width: 100%;
+}
+
+.optima {
+  padding-top: 107px;
+  padding-bottom: 75px;
+  padding: ;
+}
+
+.optima_title {
+  font-size: 30px;
+  color: #299cbd;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.optima_text {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--sub-title-color);
+  line-height: 27px;
+  text-align: center;
+
+}
+
+.textt {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  left: 500px;
+}
+
+.container {
+  position: relative;
+}
+
+.woman_img {
+  position: relative;
+  top: -250px;
+  margin-left: -280px;
+  z-index: -1;
+}
+
+.papa {
+  background-color: aqua;
+  width: 1500px;
+  height: 400px;
+  position: relative;
+  background: url(../img/bg/second_bg.jpg);
+  top: -200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img_foto {
+  background: url(../icons/finish/1.png) center center/cover no-repeat;
+  width: 100px;
+  height: 100px;
+
+}
+
+.icon {
+  background: url(../icons/finish/2.png) center center/cover no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.icon_3 {
+  background: url(../icons/finish/3.png) center center/cover no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.icon_4 {
+  background: url(../icons/finish/4.png) center center/cover no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.icon_5 {
+  background: url(../icons/finish/5.png) center center/cover no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.text_icon {
+  margin-top: 100px;
+  color: white;
+}
+
+.text_papa {
+  color: red;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  position: relative;
+  top: 2000px;
+  left: 500px;
+  position: absolute;
+  z-index: 1;
+}
+
+.linear {
+  width: 260px;
+  margin: 0 auto;
+  height: 7px;
+  background: var(--orange-color);
+  margin-left: 600px;
+  margin-top: -100px;
+  position: absolute;
+  z-index: 1;
+}
